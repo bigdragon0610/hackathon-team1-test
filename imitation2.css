@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header{
+    height: 80px;
+    background: rgba(0,0,0,0.5);
+    position:fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+header img{
+    width: 150px;
+    float: left;
+    margin: 20px 20px 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 0;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 0.9em;
+}
+li:hover{
+    background: rgba(255,255,255,0.2);
+}
+.header-right{
+    float: right;
+    color: white;
+    background: linear-gradient(45deg, #fc0075, #038af1);
+    margin: 15px;
+    padding: 0 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button{
+    padding: 0;
+    text-decoration: none;
+}
+.a-wrapper{
+    background-image: url("https://www.manacal.co.jp/typing-license/images/haikei.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+    height: 700px;
+    padding-top: 250px;
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+h1{
+    font-size: 28px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+.under-line1{
+    background: linear-gradient(transparent 70%, #ff1493 70%);
+}
+.merits{
+    display: flex;
+    margin: 40px auto 50px auto;
+    width: 90%;
+}
+.merit1{
+    width: 33%;
+    margin-left: 6%;
+    padding-left: 3%;
+}
+.merit2{
+    width: 33%;
+    padding-left: 3%;
+}
+.merit3{
+    width: 33%;
+}
+.b-wrapper{
+    background-image: url("https://www.manacal.co.jp/typing-license/images/haikei2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.purpose{
+    margin: 40px 0 20px 10%;
+    background: #038af1;
+    color: white;
+    padding: 25px 30px;
+    display: inline-block;
+    position: relative;
+}
+.triangle{
+    position: absolute;
+    top: 87.7%;
+    left: 15%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #038af1;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.content{
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    line-height: 250%;
+    letter-spacing: 3px;
+}
