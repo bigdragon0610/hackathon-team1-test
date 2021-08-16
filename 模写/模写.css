@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, ol, ul, li, img, span, a, p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic';
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+header img {
+    float: left;
+    width: 150px;
+    margin: 20px 20px 0 20px;
+}
+
+header li {
+    float: left;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 80px;
+    transition: all 0.5s;
+    font-size: 0.9em;
+}
+
+header .right a {
+    float: right;
+    color: white;
+    background: linear-gradient( 45deg, #fc0075 0%, #038af1 100%);
+    margin: 20px 20px 20px 0;
+    line-height: 40px;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+header p {
+    margin: 0;
+}
+
+.A-wrapper {
+    background-image: url(https://www.manacal.co.jp/typing-license/images/haikei.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 700px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.A-wrapper h2 {
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.A-wrapper .kasen {
+    background: linear-gradient(transparent 75%, #fc0075 0%);
+}
+
+.A-wrapper h1 {
+    font-size: 28px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+.A-wrapper .flex {
+    display: flex;
+    margin: 40px auto 50px auto;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.A-wrapper .flex-a {
+    width: 33%;
+    padding-left: 3%;
+}
+
+.A-wrapper .icon {
+    font-size: 3em;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.A-wrapper p {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.A-wrapper .flex-b {
+    width: 33%;
+    padding-left: 3%;
+}
+
+.A-wrapper .flex-c {
+    width: 33%;
+}
+
+.B-wrapper {
+    background-image: url(https://www.manacal.co.jp/typing-license/images/haikei2.jpg);
+    background-size: cover;
+    background-position: center left;
+    height: 350px;
+}
+
+.B-wrapper .hukidasi {
+    margin: 40px 0 20px 10%;
+    background: #038af1;
+    padding: 25px 30px;
+    color: white;
+    display: inline-block;
+    font-size: 0.8em;
+    position: relative
+}
+
+.B-wrapper .hukidasi::before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #038af1;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    top: 100%;
+    left: 20%;
+}
+
+.B-wrapper .content {
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    line-height: 250%;
+    letter-spacing: 3px;
+}
+
+.B-wrapper .ao-kasen {
+    font-size: 1.5em;
+    border-bottom: 3px solid #038af1;
+}
+
+.C-wrapper {
+    margin: 0 auto;
+    padding: 0px 0 30px 0;
+}
+
+.C-wrapper .maru {
+    background: white;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+}
+
+.C-wrapper .midasi {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    margin: 0px auto 30px auto;
+    line-height: 40px;
+}
+
+.C-wrapper #riyuu {
+    display: block;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.C-wrapper h3, h2 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.C-wrapper .grade {
+    background:-webkit-linear-gradient(270deg, #fc0075 0%,#038af1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.C-wrapper .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.C-wrapper .flex-box {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.C-wrapper img {
+    width: 100%;
+}
+
+.C-wrapper .title {
+    color: #fc0075;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 7px 0 7px 0;
+    text-align: left;
+}
+
+.C-wrapper .bun {
+    font-size: 0.8em;
+    text-align: left;
+}
