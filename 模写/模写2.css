@@ -42,3 +42,25 @@
     line-height: 1;
 }
 
+.fa-clipboard:before {
+    content: "\f328";
+}
+
+.E-wrapper h2::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f15c';
+    padding-right: 5px;
+}
+
+.E-wrapper .mou::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: '\f105';
+    font-weight: bold;
+    right: 10%;
+    font-size: 1.3em;
+}
+
+.fa-list-ul:before {
+    content: "\f0ca";
+}

@@ -197,7 +197,7 @@ header p {
 }
 
 .C-wrapper .grade {
-    background:-webkit-linear-gradient(270deg, #fc0075 0%,#038af1 100%);
+    background: -webkit-linear-gradient(270deg, #fc0075 0%, #038af1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -234,4 +234,224 @@ header p {
 .C-wrapper .bun {
     font-size: 0.8em;
     text-align: left;
+}
+
+.D-wrapper {
+    background: url(https://www.manacal.co.jp/typing-license/images/haikei3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.D-wrapper .maru {
+    background: rgba(244, 222, 180, 0.3);
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.D-wrapper .far {
+    font-size: 30px;
+    position: relative;
+    top: -90px;
+    color: #038af1;
+    display: block;
+    text-align: center;
+}
+
+.D-wrapper .midasi {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    margin: -110px auto 10px auto;
+    line-height: 40px;
+}
+
+.D-wrapper h2 {
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+
+.D-wrapper h2, .content {
+    text-align: center;
+}
+
+.D-wrapper .content {
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 0.8em;
+}
+
+.D-wrapper .check {
+    width: 610px;
+    line-height: 200%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px 30px;
+    border: 2px solid #038af1;
+    border-radius: 5px;
+    margin: 30px auto 0 auto;
+    font-weight: bold;
+}
+
+.E-wrapper {
+    text-align: center;
+    margin: 20px auto 0px auto;
+    padding-bottom: 70px;
+    font-size: 0.8em;
+    background-image: url(https://www.manacal.co.jp/typing-license/images/naiyou.jpg);
+    background-size: cover;
+    background-position: bottom;
+    z-index: -10;
+}
+
+.E-wrapper h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 1.6em;
+}
+
+.E-wrapper p {
+    line-height: 20px;
+}
+
+.E-wrapper table {
+    border-collapse: separate;
+    width: 70%;
+    margin: 15px auto;
+    border-spacing: 4px;
+}
+
+.E-wrapper th {
+    border: 1px solid #038af1;
+    padding: 5px 0;
+    background: rgba(212, 229, 2400.7);
+    border-radius: 5px;
+}
+
+.E-wrapper .sub {
+    font-size: 0.9em;
+}
+
+.E-wrapper td {
+    border: 1px solid #038af1;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.E-wrapper .meyasu {
+    background: rgba(240, 205, 241, 0.5);
+}
+
+.E-wrapper p {
+    line-height: 20px;
+}
+
+/* 一つ前でmarginの上下を操作しているため、今回動くのは文の全体ではなく、文の一部分、下の方が上に詰めるだけで、marginの設定上、上部にある文は上の方に動かない */
+
+.E-wrapper .mou {
+    color: white;
+    font-size: 1.2em;
+    line-height: 20px;
+    background: linear-gradient( 45deg, #fc0075 0%, #038af1 100%);
+    padding: 20px 50px;
+    cursor: pointer;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    transition: 0.8s;
+}
+
+.E-wrapper .sub2 {
+    font-size: 0.9em;
+    padding: 10px 0;
+}
+
+.F-wrapper {
+    background: #038af1;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.F-wrapper .maru {
+    background: #038af1;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.F-wrapper .fas {
+    font-size: 30px;
+    position: relative;
+    top: -85px;
+    display: block;
+    text-align: center;
+    z-index: 5;
+}
+
+.F-wrapper .midasi {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 100px;
+    margin: -105px auto 10px auto;
+    line-height: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+.F-wrapper h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.F-wrapper .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+/* widthはある範囲の幅を変化させるもののため、幅を大きくするという事は、その範囲にある写真などの大きさも変化し、この場合だと小さく見えるようになる。 */
+
+
+.F-wrapper .flex-box {
+    text-align: left;
+    width: 25%;
+    margin: 0 25px 0 25px;
+}
+/* flex-boxとは、flexされている対処の総称のことで、flexと違いそれを、cssで使うことはできない */
+
+.F-wrapper img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.F-wrapper .title {
+    font-size: 1em;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.F-wrapper .bun {
+    font-size: 0.8em;
 }
