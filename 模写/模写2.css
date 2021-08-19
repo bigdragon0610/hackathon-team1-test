@@ -64,3 +64,35 @@
 .fa-list-ul:before {
     content: "\f0ca";
 }
+
+.fa-headset:before {
+    content: "\f590";
+}
+
+.G-wrapper a::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: '\f105';
+    font-weight: bold;
+    right: 10%;
+    font-size: 1.3em;
+}
+
+.fa-comments:before {
+    content: "\f086";
+}
+
+.fa-question-circle:before {
+    content: "\f059";
+}
+
+.J-wrapper .ans::before {
+    position: absolute;
+    content: '';
+    border-top: 20px solid white;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    top: -1%;
+    left: 5%;
+    transform: rotate( 45deg);
+}

@@ -431,14 +431,15 @@ header p {
     width: 90%;
     margin: 0 auto;
 }
-/* widthはある範囲の幅を変化させるもののため、幅を大きくするという事は、その範囲にある写真などの大きさも変化し、この場合だと小さく見えるようになる。 */
 
+/* widthはある範囲の幅を変化させるもののため、幅を大きくするという事は、その範囲にある写真などの大きさも変化し、この場合だと小さく見えるようになる。 */
 
 .F-wrapper .flex-box {
     text-align: left;
     width: 25%;
     margin: 0 25px 0 25px;
 }
+
 /* flex-boxとは、flexされている対処の総称のことで、flexと違いそれを、cssで使うことはできない */
 
 .F-wrapper img {
@@ -454,4 +455,410 @@ header p {
 
 .F-wrapper .bun {
     font-size: 0.8em;
+}
+
+.G-wrapper {
+    margin: 0 auto;
+    padding: 0px 0 30px 0;
+}
+
+.G-wrapper .maru {
+    background: white;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+}
+
+.G-wrapper .fas {
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+    color: #fc0075;
+    display: block;
+    text-align: center;
+}
+
+.G-wrapper .midasi {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    margin: 0px auto 30px auto;
+    line-height: 40px;
+}
+
+.G-wrapper h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 200%;
+}
+
+.G-wrapper .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    margin: 20px auto 40px auto;
+}
+
+.G-wrapper img {
+    width: 50%;
+}
+
+.G-wrapper .pink {
+    width: 50%;
+    padding: 7%;
+    background: #fc0075;
+    color: white;
+    font-size: 0.8em;
+    line-height: 200%;
+    position: relative;
+}
+
+.G-wrapper .pink::before {
+    position: absolute;
+    content: '';
+    border-top: 30px solid #fc0075;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    top: 60%;
+    left: -5%;
+    transform: rotate( 90deg);
+}
+
+/* line-heightは一文一文の間の高さ、行の幅を変化させる */
+
+.G-wrapper .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: inline-block;
+    line-height: 150%;
+}
+
+.G-wrapper .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: inline-block;
+    line-height: 150%;
+}
+
+.G-wrapper iframe {
+    width: 600px;
+    height: 338px;
+}
+
+/* ビデオ全体の位置を移動させたいなら、ビデオをdivで囲い、marginなどで動かす。 */
+
+.G-wrapper .bideo {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.G-wrapper a {
+    color: white;
+    line-height: 20px;
+    background: linear-gradient( 45deg, #f2613a 0%, #f4a713 100%);
+    padding: 20px 50px;
+    cursor: pointer;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    transition: 0.8s;
+}
+
+.H-wrapper {
+    background-image: url(https://www.manacal.co.jp/typing-license/images/mensetu.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 0 70px 0;
+}
+
+.H-wrapper h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.H-wrapper .sen {
+    background: linear-gradient(transparent 80%, #fc0075 0%);
+}
+
+.H-wrapper p {
+    font-size: 0.8em;
+    line-height: 200%;
+}
+
+.H-wrapper .kome {
+    margin-top: 15px;
+}
+
+.I-wrapper {
+    margin: 0px auto;
+    padding: 0px 0 30px 0;
+}
+
+.I-wrapper .maru {
+    background: white;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+}
+
+.I-wrapper .far {
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+    color: #fc0075;
+    display: block;
+    text-align: center;
+}
+
+.I-wrapper .midasi {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    margin: 0px auto 30px auto;
+    line-height: 40px;
+}
+
+.I-wrapper #koe {
+    display: block;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.I-wrapper h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 200%;
+}
+
+.I-wrapper .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    justify-content: center;
+    margin: 40px auto 50px auto;
+}
+
+.I-wrapper .flex-left {
+    background-image: url(https://www.manacal.co.jp/typing-license/images/haikei3.jpg);
+    background-size: cover;
+    border: 1px solid #fc0075;
+    text-align: center;
+    padding: 70px 0px 30px 0px;
+    margin-right: 20px;
+    position: relative;
+    width: 45%;
+}
+
+.I-wrapper img {
+    width: 110px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.I-wrapper .atama {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.I-wrapper .aka-obi {
+    margin: 20px 0;
+    padding: 15px 0;
+    background: #fc0075;
+    color: white;
+}
+
+.I-wrapper .bun {
+    margin: 0 30px;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.I-wrapper .flex-right {
+    background-image: url(https://www.manacal.co.jp/typing-license/images/haikei3.jpg);
+    background-size: cover;
+    border: 1px solid #038af1;
+    text-align: center;
+    padding: 70px 0px 30px 0px;
+    position: relative;
+    width: 45%;
+}
+
+.I-wrapper .ao-obi {
+    margin: 20px 0;
+    padding: 15px 0;
+    background: #038af1;
+    color: white;
+}
+
+.J-wrapper {
+    background: rgb(230, 230, 230);
+    margin: 10px auto 0 auto;
+    padding: 0px 0 50px 0;
+}
+
+.J-wrapper .maru {
+    background: rgb(230, 230, 230);
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+}
+
+.J-wrapper .far {
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+    color: #038af1;
+    display: block;
+    text-align: center;
+}
+
+.J-wrapper .midasi {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    margin: 0px auto 30px auto;
+    line-height: 40px;
+}
+
+.J-wrapper #situmon {
+    display: block;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.J-wrapper h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 200%;
+}
+
+.J-wrapper a {
+    color: #fc0075;
+    text-decoration: underline;
+}
+
+.J-wrapper .nakami {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.J-wrapper .que {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 40px 0 20px 0;
+}
+
+.J-wrapper .ans {
+    font-size: 0.9em;
+    background: white;
+    padding: 2.5%;
+    position: relative;
+}
+
+
+
+.K-wrapper {
+    background-image: url(https://www.manacal.co.jp/typing-license/images/juken.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 60px 0 60px 0;
+    color: white;
+}
+
+.K-wrapper h3 {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.K-wrapper p {
+    line-height: 30px;
+    font-size: 0.8em;
+}
+
+.K-wrapper .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
+
+.K-wrapper .flex-l, .K-wrapper .flex-c, .K-wrapper .flex-r {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.K-wrapper .flex-l, .K-wrapper .flex-c, .K-wrapper .flex-r {
+    background: rgba(230, 230, 230, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+}
+
+.K-wrapper .flex-l table, .K-wrapper .flex-c table, .K-wrapper .flex-r table {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.K-wrapper .flex-l td.dai, .K-wrapper .flex-c td.dai, .K-wrapper .flex-r td.dai {
+    font-size: 20px;
+    color: black;
+}
+
+.K-wrapper .flex-l select, .K-wrapper .flex-c select, .K-wrapper .flex-r select {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #000;
+    padding: 40px 0 0 0;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer a {
+    color: #000;
+    font-size: 0.6em;
+}
+
+footer .kuro {
+    background: #000;
+    color: white;
+    font-size: 0.6em;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 40px;
 }
