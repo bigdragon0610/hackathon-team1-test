@@ -1,0 +1,34 @@
+/* ヘッダーの右ボタンのレスポンシブ対応 */
+@media screen and (max-width: 970px){
+    .app {
+    color: white;
+    padding: 0 10px;
+    transition: all 0.5s;
+    font-size: 0.9em;
+    cursor: pointer;
+    display:none;
+    vertical-align: middle;}
+    }
+/* ヘッダーの左ボタンのレスポンシブ対応 */
+@media screen and (max-width: 800px){
+    .leftBtn {
+        display:none;
+    }
+}
+/* スマホ版サイトのレスポンシブ対応 */
+@media screen and (max-width: 800px){
+    .IIIreason{
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .reason{
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+    }
+    .subject{
+        font-size: 1.5em;
+    }
+}
