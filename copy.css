@@ -1,7 +1,12 @@
+/* スムーススクロール */
+html{
+  scroll-behavior: smooth;
+}
 /* 全体 */
 body{
   padding: 0px;
   margin: 0px;
+  
 }
 /* ヘッダー */
 header {
@@ -13,9 +18,8 @@ header {
   position: fixed;
   color: white;
 }
-
 /* ヘッダーの写真 */
-.head_pic {
+.head_pic{
   width: 200px;
   margin: 20px;
 }
@@ -26,8 +30,12 @@ header {
   transition: all 0.5s;
   font-size: 0.9em;
   cursor: pointer;
-  display:inline;
+  display:inline-flex;
   vertical-align: middle;
+  padding: auto;
+}
+.leftBtn{
+  color: white;
 }
 /* ヘッダーの右に寄せられたボタン */
 .app{
@@ -43,13 +51,24 @@ header {
 }
 /* エリア１ */
 .containerI {
-  background-size: cover;
+  /* background-size: auto 100%; */
+  /* background-size: cover; */
   background-position: center;
   color: white;
   height: 500px;
   padding-top: 150px;
   text-align: center;
   background-image: url(https://www.manacal.co.jp/typing-license/images/haikei.jpg);
+  /* width: 100%; */
+}
+.clearfix{
+  /* display:inline-block; */
+}
+/* はみ出ない */
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
 }
 /* 見出し */
 .start_page {
@@ -103,5 +122,49 @@ header {
 .claim_point {
   font-size: 20px;
   background: linear-gradient(transparent 80%, #008af1 0%);
+}
+/* エリア２ */
+.containerIII{
+  text-align:center; 
+  margin: 70px;
+}
+/* 見出し */
+.headA{
+  font-size: 1.2em;
+}
+/* 見出し */
+.headB{
+  font-size: 2em;
+}
+/* 理由３つ */
+.IIIreason{
+  font-size: 0.9em;
+  display: flex;
+  text-align: left;
+  /* margin: auto; */
+  /* レスポンシブ対応 */
+}
+/* 理由の個々 */
+.reason{
+  width: 33%;
+  margin:1%;
+  box-sizing: border-box;
+}
+/* 理由の写真 */
+.reason_pic{
+width: 100%;
+}
+/* 赤い字 */
+.red_letter{
+  color: #FC0075;
+  font-size: 1.2em;
+}
+/* グラデーションの３ */
+.three{
+  background: -webkit-linear-gradient(270deg, #fc0075 0%,#038af1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.4em;
 }
 
